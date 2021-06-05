@@ -1,0 +1,53 @@
+
+  @media (max-width: 575.98px) {
+
+    h1 {font-size:1rem !important;} /*1rem = 16px*/
+    h3 {font-size:1rem !important;} /*1rem = 16px*/
+    h4 {font-size:1rem !important;} /*1rem = 16px*/
+    h5 {font-size:1rem !important;} /*1rem = 16px*/
+    h6 {font-size:1rem !important;} /*1rem = 16px*/        
+
+    .p-5{
+        padding: 0 !important;
+      }
+   }
+  /* Small 768px*/
+  @media (max-width: 767.98px) { 
+    h1 {font-size:2.5rem !important;} /*1rem = 16px*/
+    h3 {font-size:2rem !important;} /*1rem = 16px*/
+    h4 {font-size:1.75rem !important;} /*1rem = 16px*/
+    h5 {font-size:1.25rem !important;} /*1rem = 16px*/
+    h6 {font-size:1rem !important;} /*1rem = 16px*/        
+    .p-5{
+        padding: 2 !important;
+      }
+   }
+  /* Small 768px*/
+   @media (max-width: 991.98px) {
+      h1 {font-size:1.75rem !important;}          
+      h3 {font-size:1.5rem !important;}
+      h4 {font-size:1.25rem !important;}
+      h5 {font-size:1rem !important;}
+
+    .p-5{
+        padding: 0 !important;            
+      }
+    }
+  /*Large 1200px*/
+  @media (max-width: 1199.98px) { 
+    .p-5{
+        padding: 0 !important;            
+      }
+   }
+ /* .table-tab { boton registrate
+    border-radius: 10px;
+    padding:6px 12px;
+    background-color: #DFBD05;
+    border: double 3px #E4C000;
+   } */
+   .navbar-nav{
+       flex-direction: column;
+   }
+   .h1{
+    flex-direction: column;
+   }

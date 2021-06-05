@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>ColTravel</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive -->
+
+    <!--CSS-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+  	integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" > <!-- icono buscar -->
+    <link href="https://allfont.es/allfont.css?fonts=agency-fb" rel="stylesheet" type="text/css" /> <!-- tipografia agency fb -->
+    <link rel="shortcut icon" href="imagenes/ShortcutLogo.png">
+    <style type="text/css">  
+     body {
+        font-family: 'Agency FB', arial;
+        font-size: 48px;
+        text-shadow: 2px 2px 2px rgba(63, 63, 63, 0.8);
+      }
+    </style>
+
+</head>
+<body>
+  <div  class="Footer text-center py-2" style="background-color: #3659AC;"> 
+  </div>
+	<nav class="navbar-nav navbar-expand-sm navbar-dark"
+		style="background-color: #ffffff;">
+
+        <!--Navbar-->
+    <div class="container d-flex justify-content-between">
+      <a class="navbar-brand d-inline" href="index.html">
+        <img src="imagenes/Coltravel sf.png" alt="Logo" width="22%" > </a>
+          <!--Boton c-->  
+      <button class="navbar-toggler m-3" type="button" data-toggle="collapse" data-target="#navbarsExample" aria-controls="navbarsExample" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+        
+        <!--Botones-->
+		<div class="collapse navbar-collapse justify-content-end text-center" id="navbarsExample">
+			<ul class="nav navbar-nav" id="myTab" role="tablist">
+        <!--Inicio -->
+        <li class="nav-item active" id="Hello3">          
+          <a class="btn btn-outline-primary mr-4" id="Inicio-tab" data-toggle="tab" href="#Inicio" role="tab"
+              aria-selected="true">Inicio</a>          
+        </li>
+        <!--Inicio Sesión-->
+        <li class="nav-item " id="Hello4">          
+          <a class="btn btn-outline-primary mr-5" id="home-tab" data-toggle="tab" href="#Table" role="tab"
+             aria-controls="home" style="outline-color: #3659AC;" aria-selected="true">Iniciar Sesión</a>          
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <!--Inicio -->
+  	<div class="tab-content" id="myTabConent">
+      
+<!--prueba carousel-->
+<!--<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes\Fondo1.png"  class="img-fluid" alt="FondoInicio" >
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes\Fondo1.png"  class="img-fluid" alt="FondoInicio" >
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes\Fondo1.png"  class="img-fluid" alt="FondoInicio" >
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+fin prueba-->
+
+  <div  class="tab-pane fade show active container-fluid" id="Inicio" role="tabpanel" aria-labelledby="Inicio-tab">           
+    <div class="card text-white" id="InicioCard1"  >
+      <img src="imagenes\Fondo1.png"  class="img-fluid" alt="FondoInicio" >
+      
+        <div class="card-img-overlay d-flex justify-content-around">  
+          <div class=" media-body mask rounded container justify-content-center" >
+                                          
+           <div class="p-1 mt-8 ">                
+              <h1 class="p-3  mt-5 card-title font-weight-bolder d-flex justify-content-center" style= "color: #000000">Encuentra tu destino perfecto</h1>                                                                              
+                 
+                <!--Registrate -->
+                <a class="btn m-3" id="table-tab" data-toggle="tab" href="#Registrate" role="tab" 
+                   aria-controls="tabla" style="background-color: rgba(223, 189, 5, 0.7)" aria-selected="false">Regístrate aquí</a>          
+              </li>         
+            <div class=" destacado d-flex flex-row justify-content-around text-dark pt-5">
+            </div>
+          </div>
+        </div>
+        <div class=" p-2   media-body text-center d-md-block" >
+        </div>
+      </div>
+    </div>
+   <!--fin-->
+   
+          <!--Footer-->
+  <footer class="page-footer d-flex justify-content-around " style="background-color: #3659AC;">
+    <div class="pb-0 p-4" style= "color: #000000" >
+      <h5 class="text-uppercase font-weight-bold ">¿Tienes dudas?</h5>
+      <h5 class="text-uppercase font-weight-bold ">Contáctanos</h5>
+    </div>
+  </footer>
+  </div>
+
+        <!-- Regístrate aquí -->
+	<div class="tab-pane fade " id="Registrate" role="tabpanel" aria-labelledby="home-tab">
+    <div class="container" id="Registrate1">
+			<div class="row">
+        <div class="col-2">
+        </div>
+          <div class="col">
+            <form action="" id="RegistrateForm">
+              <h2 class="mb-3 mt-3 text-left"> Regístrate  </h2>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="Usuario" aria-describedby="emailHelp" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="Contrasena" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Confirmar contraseña</label>
+                <input type="password" class="form-control" id="Contrasena2" required>
+              </div>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-warning" type="submit" id="form-submit">Enviar</button>
+              </div>
+              <div id="alerta" class="mt-3">
+              </div>
+            </form> 
+          </div>
+        <div class="col-2">
+        </div>
+      </div>
+    </div>
+  </div>
+        <!-- Iniciar Sesión -->
+	<div class="tab-pane fade" id="Table" role="tabpanel" aria-labelledby="table-tab">
+    <div class="container" id="IniciarSesion1">
+      <div class="row">
+        <div class="col-3"></div>
+          <div class="col">
+            <form action="" id="InicioForm">
+              <h2 class="text-left mb-3 mt-3">Inicia sesión aquí</h2>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="Usuario-1" aria-describedby="emailHelp" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="Contrasena-1" required>
+              </div>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-warning" type="submit" id="Inicio-Submit">Iniciar Sesión</button>                       
+              </div>
+              <diV id="alerta2" class="mt-3">
+              </diV>
+            </form>
+          </div>
+        <div class="col-3"></div>
+      </div>
+    </div>
+  </div>
+	
+  <div class="container-fluid tab-pane fade bg-dark p-0" id="Continuar" role="tabpanel" aria-labelledby="continuar-tab">
+    <div class="container-fluid p-0" id="Continuar1" >     
+      <div class="container-fluid p-5 bg-dark text-white ">
+        <h1 class="text-center">Busca el destino ideal para ti</h1>
+        <form class="container-fluid" action="" id="ViajeForm">
+          <div class=" p-3 d-flex flex-row align-items-center">                  
+            <label for="validationCustom01" class="form-label">Destino:</label>
+            <select class="form-control bg-light d-inline-flex ml-5 mr-5" id="validationCustom01" required>
+              <option id="Destino"  selected disabled value="">Destino</option>
+              <option id="Destino"value="Cartagena">Cartagena</option>
+              <option id="Destino"value="Boyacá">Boyacá</option>
+            </select> 
+
+            <label for="validationCustom02" class="form-label">Fecha:</label>
+            <select class="form-control  ml-5 mr-5" id="validationCustom02" required>
+              <option id="Fecha"  selected disabled value="">Fecha</option>
+              <option id="Fecha"value="21/07/2021">21/07/2021</option>
+              <option id="Fecha"value="5/09/2021">5/09/2021</option>
+            </select>
+
+            <button href="#buscar" class="btn btn-warning" id="Ayuda-tab" data-toggle="tab"  role="tab" type="submit" aria-selected="true">Buscar</button>                       
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+    <!-- Footer -->
+      </section>
+    </div>  
+  </div> 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"></script>
+  <script src="js/cliente.js"></script>
+</html>
